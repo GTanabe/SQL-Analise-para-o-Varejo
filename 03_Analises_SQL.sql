@@ -1,8 +1,8 @@
-'03_Consultas_Basicas.sql'
+'03_Analises_SQL.sql'
 
   /*
 Consulta 01
-Produtos da marca 'Andritex'
+Produtos de uma marca específica
 */
 select * from produto
 where marca='Andritex';
@@ -26,7 +26,7 @@ Consulta 04
 5 produtos com maior preço de venda em ordem decrescente
 */
 select * from produto
-order by preco desc;
+order by preco desc
 limit 5;
 
 /*
@@ -62,7 +62,7 @@ Quantidade de estoque por loja
 */
 select
 l.nome,
-Sum(e.qtde_est) 'qtde est'
+Sum(e.qtde_est) 'qtde_est'
 from estoque e
 inner join lojas l
 on e.id_lj = l.id_lj
@@ -78,7 +78,7 @@ from estoque e
 inner join produto p
 on e.id_produto=p.id_produto
 inner join lojas l
-on e.id_lj=l.id.lj
+on e.id_lj=l.id_lj
 group by l.nome
 order by valor_est desc;
 
@@ -163,11 +163,58 @@ where v.Venda < 20;
 Consulta 16
 Produtos entre R$100 e R$300
 */
-select descricao,
+select 
+descricao,
 preco
 from produto
 where preco between 100 and 300
 order by preco desc;
 
+/*
+Consulta 17
+Produtos sem estoque
+*/
+select
+descricao,
+marca
+from produto p
+inner join estoque e
+on p.id_produto = e.id_produto
+where e.qtde_est = 0;
 
+/*
+Consulta 18
+Loja com maior estoque
+*/
+select
+l.nome,
+SUM(e.qtde_est) as estoque
+from estoque e
+inner join lojas l
+on e.id_lj = l.id_lj
+group by l.nome
+order by estoque desc
+limit 1;
 
+/*
+Consulta 19
+Quantidade de produtos por marca
+*/
+select
+marca, 
+count(*) as qtde
+from produto
+group by marca;
+
+/*
+Consulta 20
+Valor total do estoque por marca
+*/
+select
+p.marca,
+SUM(e.qtde_est * p.custo) as valor
+from estoque e
+inner join produto p
+on e.id_produto = p.id_produto
+group by p.marca
+order by valor asc;
