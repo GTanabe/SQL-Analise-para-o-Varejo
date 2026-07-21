@@ -25,7 +25,7 @@ Base_pai
 
 O banco é composto pelas seguintes tabelas:
 ```
-|Tabela  | Descrição
+|**Tabela**  | **Descrição**
 |Produto | Cadastro de produtos
 |Lojas   | Cadastro das lojas
 |Estoque | Quantidade disponível de cada produto por loja
