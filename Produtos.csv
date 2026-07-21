@@ -1,0 +1,30 @@
+﻿sku;descricao;grife;linha;tipo;marca;custo;preco
+Cal002;Sapato Fem Bico Fechado;Complementos;Calçados;Fem;Giovanna dias;20;50
+Cal003;Tênis Feminino Casual Puma;Complementos;Calçados;Fem;Puma;160;400
+Cal004;Tênis Masculino Esporte Umbro;Complementos;Calçados;Masc;Umbro;180;450
+Cal005;Tênis Masculino Casual Adidas ;Complementos;Calçados;Masc;Adidas;177;443
+Cal006;Tênis Feminino Casual Newbalance;Complementos;Calçados;Fem;Newbalance;190;475
+Cal007;Sapato comfort kolosh;Complementos;Calçados;Fem;Kolosh;110;275
+Cal008;Sapato social;Complementos;Calçados;Masc;Jota Pe;90;225
+Cal009;Tênis Masculino casual Newbalance;Complementos;Calçados;Masc;Newbalance;190;475
+Cal010;Salto Anabella;Complementos;Calçados;Fem;Dakota;100;250
+Chi001;Chinelo Hav Masc Star Wars;Complementos;Chinelos;Masc;Havaianas;40;100
+Chi002;Chinelo Hav Fem Flores;Complementos;Chinelos;Fem;Havaianas;30;75
+Chi003;Chinelo Hav Fem Brasil;Complementos;Chinelos;Fem;Havaianas;30;75
+Chi004;Chinelo Hav Masc Brasil;Complementos;Chinelos;Masc;Havaianas;30;75
+Chi005;Chinelo Ipanema power girl;Complementos;Chinelos;Fem;Grendene;25;63
+Chi006;Chinelo Raider ;Complementos;Chinelos;Masc;Grendene;25;63
+Chi007;Chinelo Ipanema Slim;Complementos;Chinelos;Fem;Grendene;25;63
+Chi008;Chinelo Raider papete;Complementos;Chinelos;Masc;Grendene;30;75
+Chi009;Chinelo Hav Masc One piece;Complementos;Chinelos;Masc;Havaianas;40;100
+Chi010;Chinelo Hav Fem puff Diabo veste prada;Complementos;Chinelos;Fem;Havaianas;45;113
+Fem001;Blusa Gola V Azul Basic;Feminino;Basico;Basico;Andritex;15;38
+Fem002;Blusa Gola V Preto Basic;Feminino;Basico;Basico;Andritex;15;38
+Fem003;Blusa Gola V Branco Basic;Feminino;Basico;Basico;Andritex;15;38
+Fem004;Blusa Gola V Vinho Basic;Feminino;Basico;Basico;Andritex;15;38
+Fem005;Calça mom;Feminino;Jeans;Jovem;Sawary;100;250
+Fem006;Calça Slim;Feminino;Jeans;Jovem;Sawary;100;250
+Fem007;Calça Wide leg;Feminino;Jeans;Jovem;Sawary;120;300
+Fem008;Calça Cargo;Feminino;Jeans;Jovem;Sawary;120;300
+Fem009;Top nadador ;Feminino;Esporte;Esporte top;Trend fitt;20;50
+Fem010;Calça legging treino bolso lateral;Feminino;Esporte;Esporte Cal;Trend fitt;30;75
