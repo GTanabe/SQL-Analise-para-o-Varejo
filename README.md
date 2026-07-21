@@ -5,7 +5,7 @@ O banco de dados simula uma rede de lojas contendo informações sobre produtos,
 O foco deste projeto é demonstrar conhecimentos em SQL Básico e Intermediário, organização de banco de dados e análise de informações.
 
 #  Estrutura do projeto
-
+```
 ├── dados/
 │   ├── produto.csv
 │   ├── lojas.csv
@@ -16,7 +16,7 @@ O foco deste projeto é demonstrar conhecimentos em SQL Básico e Intermediário
 ├── 02_Carga_Dados.sql
 ├── 03_Analises_SQL.sql
 └── README.md
-
+```
 # Banco de Dados
 
 **Nome do banco:**
