@@ -1,7 +1,7 @@
 # Projeto-SQL-Analise-de-Estoque-e-Vendas-no-Varejo
 Banco de dados desenvolvido para simular um ambiente de varejo. O objetivo é responder perguntas de negócio utilizando apenas comandos básicos de SQL.
 # Estrutura do banco
-o banco é composto por quatro tabelas que ão relacionadas através de chaves primárias e estrangeiras.
+O banco é composto por quatro tabelas que ão relacionadas através de chaves primárias e estrangeiras.
 Estoque, Lojas, Produto e Vendas
 # Habilidades praticadas 
 SELECT, WHERE, ORDER BY, GROUP BY, HAVING, INNER JOIN, COUNT, SUM, AVG, MAX e MIN
