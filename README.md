@@ -24,13 +24,13 @@ O foco deste projeto é demonstrar conhecimentos em SQL Básico e Intermediário
 Base_pai
 
 O banco é composto pelas seguintes tabelas:
-
+```
 |Tabela  | Descrição
 |Produto | Cadastro de produtos
 |Lojas   | Cadastro das lojas
 |Estoque | Quantidade disponível de cada produto por loja
 |Vendas  | Histórico de vendas por produto e loja
-
+```
 As tabelas estão relacionadas através de **Primary Keys** e **Foreign Keys**.
 
 # Origem dos dados
