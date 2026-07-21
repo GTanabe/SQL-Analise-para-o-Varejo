@@ -6,7 +6,7 @@ O foco deste projeto é demonstrar conhecimentos em SQL Básico e Intermediário
 
 #  Estrutura do projeto
 ```
-├── dados/
+├── dataset/
 │   ├── produto.csv
 │   ├── lojas.csv
 │   ├── estoque.csv
