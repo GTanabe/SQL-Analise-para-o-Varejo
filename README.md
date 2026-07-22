@@ -53,7 +53,7 @@ Durante o desenvolvimento deste projeto foram utilizados:
 - MAX
 - MIN
 - Subqueries
-- 
+  
 # 📈 Exemplos de análises
 
 Algumas análises desenvolvidas no projeto:
